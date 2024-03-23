@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "src/orderprocessing"
+		},
+		{
+			"path": "src/ordervalidation"
+		}
+	],
+	"settings": {
+		"debug.internalConsoleOptions": "neverOpen"
+	},
+	"launch": {
+        "configurations": [],
+        "compounds": [
+            {
+                "name": "Attach to both Function apps",
+                "configurations": [
+                    "Attach to orderprocessing",
+                    "Attach to ordervalidation"
+                ]
+            }
+        ]
+    }
+}

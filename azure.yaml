@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: jte2024-func-app-with-durable-nodejs
+services:
+  validation:
+    project: ./src/ordervalidation
+    language: js
+    host: function
+  processing:
+    project: ./src/orderprocessing
+    language: js
+    host: function
